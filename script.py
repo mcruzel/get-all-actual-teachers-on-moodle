@@ -268,7 +268,7 @@ def balayage_categories(ws_categories_data, ws_courses_data, origin):
                 print("        "+str(courses_display))
                     
             count += 1
-    print("Choisir la catégorie à explorer. Taper \"t-categorie\" (exemple : t-3) pour scanner tous les enseignants de cette catégorie. p : retour parent, v : voir les cours de cette catégorie")
+    print("Choisir la catégorie à explorer (taper le numéro du menu puis entrée). Taper \"t-categorie\" (exemple : t-3) pour scanner tous les enseignants de cette catégorie. p : retour parent, v : voir les cours de cette catégorie")
     print("-e : export en csv")
     print("--------------")
     response_input = input("Votre choix > ")
