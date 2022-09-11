@@ -6,4 +6,4 @@ INNER JOIN prefix_course c ON c.id = ct.instanceid
 INNER JOIN prefix_role r ON r.id = ra.roleid
 INNER JOIN prefix_course_categories cc ON cc.id = c.category
 INNER JOIN prefix_course_categories ccc ON cc.parent = ccc.id
-WHERE r.id = 4 OR r.id = 3 OR r.id = 12 // we want to check roleids 3, 4 and 12
+WHERE r.id = 4 OR r.id = 3
