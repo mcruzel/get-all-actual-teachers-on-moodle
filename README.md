@@ -23,9 +23,9 @@ csv
 
 # Prerequisites on Moodle
 
-> You need to create a cohort for teachers and regulary fill her (a script may be useful, i'll upload something later about this)
-> Custom reports plugin, and 3 reports (check sql files in this git)
->> All courses listing (sql request 1.sql)
->> All categories listing (sql request 2.sql)
->> All teachers listing (sql request 3.sql)
->>> You can edit this file for adding others roles for teachers (default : editing_teacher + teacher)
+* You need to create a cohort for teachers and regulary fill her (a script may be useful, i'll upload something later about this)
+* Custom reports plugin, and 3 reports (check sql files in this git)
+ * All courses listing (sql request 1.sql)
+ * All categories listing (sql request 2.sql)
+ * All teachers listing (sql request 3.sql)
+  * You can edit this file for adding others roles for teachers (default : editing_teacher + teacher)
