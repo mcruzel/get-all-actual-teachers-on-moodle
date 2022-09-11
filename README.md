@@ -16,10 +16,10 @@ This is particularly useful if you have course archives and admins enrolled in s
 
 This script use the following python librairies :
 
-requests
-json
-os
-csv
+* requests
+* json
+* os
+* csv
 
 # Prerequisites on Moodle
 
